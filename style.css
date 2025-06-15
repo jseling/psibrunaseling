@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #444; /* fundo escuro */
+    color: #a13800;
+    line-height: 1.6;
+}
+
+
+.container {
+  max-width: 960px;
+  margin: 2rem auto;
+  background-color: #fdf9f7;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+
+
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0;
+    }
+
+    .logo {
+      width: 40px;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #a13800;
+      font-weight: 500;
+    }
+
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0;
+    }
+
+    .hero-text {
+      flex: 1;
+      min-width: 280px;
+    }
+
+    .hero-text h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero-text p {
+      font-size: 1.2rem;
+    }
+
+    .hero-button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.8rem 1.5rem;
+      border: 2px solid #a13800;
+      background: none;
+      color: #a13800;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+
+  .contato {
+      display: flex;
+      align-items: center; /* Alinha verticalmente */
+      gap: 8px; /* Espaço entre o ícone e o texto */
+      margin: 0px; /* Espaço entre os blocos */
+  }
+
+  .contato p {
+      margin: 2px; /* Espaço entre os blocos */
+  }
+
+  .contato img {
+      width: 24px; /* Ajuste o tamanho do ícone */
+      height: 24px;
+  }
+
+    .hero-img {
+      flex: 1;
+      text-align: center;
+    }
+
+    .hero-img img {
+      max-width: 300px;
+      border-radius: 0.5rem;
+    }
+
+    section {
+      padding: 0;
+    }
+
+    .title {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .work-section {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+
+    .card {
+      flex: 1;
+      border: 1px solid #a13800;
+      padding: 1rem;
+      min-width: 280px;
+      border-radius: 0.5rem;
+    }
+
+    .card_invisivel {
+      flex: 1;
+      padding: 1rem;
+      min-width: 280px;
+      border-radius: 0.5rem;
+    }
+
+    .faq {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+
+    .faq-item {
+      flex: 1;
+      min-width: 280px;
+    }
+
+    .cta {
+      background-color: #fff3ed;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .cta-text {
+      flex: 2;
+      min-width: 280px;
+    }
+
+    .cta-img {
+      flex: 1;
+      text-align: center;
+    }
+
+    .cta-img img {
+      max-width: 280px;
+      border-radius: 0.5rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+    }
+
+    footer img {
+      width: 24px;
+      margin: 0 0.5rem;
+    }
