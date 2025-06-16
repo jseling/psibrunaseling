@@ -1,7 +1,9 @@
 body {
     margin: 0;
     font-family: 'Helvetica Neue', sans-serif;
-    background-color: #444; /* fundo escuro */
+    background-color: hsl(29, 30%, 20%); /* fundo escuro */
+    background-image: url('fundo10x2.png'); /* Imagem com transparência */
+    background-repeat: repeat; /* Faz o tile se repetir */
     color: #a13800;
     line-height: 1.6;
 }
@@ -27,7 +29,7 @@ body {
     }
 
     .logo {
-      width: 40px;
+      width: 100px;
     }
 
     nav a {
